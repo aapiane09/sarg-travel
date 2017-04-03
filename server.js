@@ -27,7 +27,6 @@ app.delete('/api/posts/:postId',controllers.posts.destroy);
 app.put('/api/posts/:postId',controllers.posts.update);
 
 //city json endpoints
-// app.get('/api', controllers.api.index);
 app.get('/api/cities', controllers.cities.index);
 app.get('/api/cities/:cityId', controllers.cities.show);
 app.post('/api/cities', controllers.cities.create);
